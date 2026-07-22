@@ -12,6 +12,7 @@
           "Magento-Website-Code": "citisignal"
         }
       },
+      "commerce-assets-enabled": "true",
       "commerce-b2b-enabled": false,
       "commerce-companies-enabled": false,
       "commerce-assets-enabled": true,
