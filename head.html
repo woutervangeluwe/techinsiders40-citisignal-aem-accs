@@ -91,7 +91,9 @@
                     stickySession: true // create a sticky session cookie with expiration
                 });
             }else{
-                setTimeout(()=>{bootstrapConversationalExperience(cnt+1)}, 100);
+                if(cnt<10){
+                  setTimeout(()=>{bootstrapConversationalExperience(cnt+1)}, 100);
+                }
             }
         };
         bootstrapConversationalExperience(0);
