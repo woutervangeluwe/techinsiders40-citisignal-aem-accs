@@ -82,9 +82,9 @@
     }).then(result => {
         console.log("Conversation experience fetched", result);
         const bootstrapConversationalExperience = () => {
-            if(document.querySelector('#bootstrapConversationalExperience'))
+            if(document.querySelector('#brand-concierge-mount'))
             {
-                window["alloy"]("brand-concierge-mount", {
+                window["alloy"]("bootstrapConversationalExperience", {
                     selector: "#brand-concierge-mount",
                     src: "/scripts/brandconciergemain.js",
                     stylingConfigurations: window.styleConfiguration,
