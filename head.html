@@ -91,10 +91,12 @@
                     stickySession: true // create a sticky session cookie with expiration
                 });
             }else{
+                cnt+=1;
                 setTimeout(bootstrapConversationalExperience, 100);
             }
         };
-        bootstrapConversationalExperience();
+        const cnt = 0;
+        bootstrapConversationalExperience(0);
     });
 </script>
 
